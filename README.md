@@ -11,20 +11,20 @@ The notebook focuses on forecasting daily sales based on historical transaction 
 
 ## **Notebook Workflow Breakdown**
 
-### **1. Library Installation and Import**
+### **📖 Library Installation and Import**
 - Essential libraries:
   - `pandas`, `numpy` for data handling
   - `matplotlib`, `seaborn` for visualization
   - `statsmodels` for ARIMA/SARIMAX modeling
 
-### **2. Data Access**
+### **💻 Data Access**
   - `train.csv`: Contains historical sales data, including `date`, `store`, `item`, and `sales` columns.
   - `test.csv`: Test dataset where sales values need to be predicted.
   - `sample_submission.csv`: Template for submitting forecast results.
 
 ---
 
-### **3. Exploratory Data Analysis (EDA)**
+### **🖋️ Exploratory Data Analysis (EDA)**
 - Inspects the structure of the datasets.
 - Checks for missing values.
 - Analyzes:
@@ -41,14 +41,14 @@ The notebook focuses on forecasting daily sales based on historical transaction 
 
 ---
 
-### **4. Time Series Modeling (ARIMA/SARIMAX)**
+### **⏳ Time Series Modeling (ARIMA/SARIMAX)**
 - Applied ARIMA and/or SARIMAX models to forecast sales.
 - Model selection, fitting, and forecast generation are performed based on historical patterns.
 - Visualizations compare actual sales and model predictions to evaluate model performance.
 
 ---
 
-### **5. Output**
+### **🔎 Output**
 - Forecast results for the test dataset.
 - Visualization of trends and model performance.
 - Optional generation of a `submission.csv` file based on the required format.
